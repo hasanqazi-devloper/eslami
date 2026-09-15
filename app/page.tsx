@@ -8,6 +8,7 @@ import IndustriesSection from "@/components/IndustriesSection";
 import HeritageStory from "@/components/HeritageStory";
 import WhyChooseUsSection from "@/components/WhyChooseUsSection";
 import LogisticsEstimator from "@/components/LogisticsEstimator";
+import Testimonials from "@/components/Testimonials";
 import RfqSection from "@/components/RfqSection";
 import WhatsAppButton from "@/components/WhatsAppButton"; // ✅ Imported
 export default function SohipEliteFinal() {
@@ -21,7 +22,7 @@ export default function SohipEliteFinal() {
         <ProductsSection />
         <LogisticsEstimator />
         <HeritageStory />
-
+        <Testimonials />
 
         {/* <IndustriesSection />
         <WhyChooseUsSection /> */}

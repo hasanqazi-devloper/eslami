@@ -1,50 +1,13 @@
 @import "tailwindcss";
 
-/* ⚡ PURE HARDWARE VELOCITY SMOOTH SCROLLING */
+/* Minimal Global Base Rules */
 html {
-  scroll-behavior: smooth !important;
+  scroll-behavior: smooth;
 }
 
-/* 🏙️ ABSOLUTE RE-ENGINEERED BASE STYLES */
 body {
-  background-color: #050505; /* Solid dark luxury canvas baseline */
-  color: #ffffff;
-  font-family: var(--font-sans), Arial, Helvetica, sans-serif;
+  background-color: #0A0708;
+  color: #FFFFFF;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
   overflow-x: hidden;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-}
-
-/* ✨ HIGH-END LUXURY FOCUS RESETS */
-*:focus {
-  outline: none !important;
-  box-shadow: none !important;
-}
-
-/* 🎛️ TAILWIND V4 FONTS CONFIGURATION BINDINGS */
-@theme inline {
-  --font-serif: var(--font-playfair);
-  --font-sans: var(--font-inter);
-}
-
-/* ⚡ SMOOTH FADE-IN UTILITY FOR DYNAMIC GRID EXPANDERS */
-@keyframes fadeIn {
-  from {
-    opacity: 0;
-    transform: translateY(4px);
-  }
-  to {
-    opacity: 1;
-    transform: translateY(0);
-  }
-}
-
-.animate-fadeIn {
-  animation: fadeIn 0.4s cubic-bezier(0.16, 1, 0.3, 1) forwards;
-}
-
-/* 🎛️ TAILWIND V4 FONTS CONFIGURATION BINDINGS */
-@theme inline {
-  --font-serif: var(--font-montserrat);
-  --font-sans: var(--font-montserrat);
 }

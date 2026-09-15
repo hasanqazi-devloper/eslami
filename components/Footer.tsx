@@ -1,17 +1,17 @@
 import Link from "next/link";
-import { Mail, Phone, MapPin, Globe2, Sparkles, ArrowUpRight } from "lucide-react";
+import { Mail, Phone, Globe2, Sparkles, ArrowUpRight } from "lucide-react";
 
 export default function Footer() {
   return (
-    <footer className="bg-[#121212] text-white border-t border-[#D4AF37]/20 pt-20 pb-12 px-4 sm:px-6 lg:px-8 relative overflow-hidden">
+    <footer className="bg-[#0A0708] text-white border-t border-[#4A1217] pt-8 pb-12 px-4 sm:px-6 lg:px-8 relative overflow-hidden">
       
       {/* Subtle Ambient Background Glows */}
       <div 
-        className="pointer-events-none absolute -bottom-20 left-10 h-72 w-72 rounded-full bg-[#6B1224]/20 blur-[120px]" 
+        className="pointer-events-none absolute -bottom-20 left-10 h-72 w-72 rounded-full bg-[#E63946]/15 blur-[120px]" 
         aria-hidden="true" 
       />
       <div 
-        className="pointer-events-none absolute top-0 right-1/4 h-80 w-80 rounded-full bg-[#D4AF37]/10 blur-[130px]" 
+        className="pointer-events-none absolute top-0 right-1/4 h-80 w-80 rounded-full bg-[#E63946]/10 blur-[130px]" 
         aria-hidden="true" 
       />
 
@@ -27,46 +27,46 @@ export default function Footer() {
                 <div className="relative h-12 w-auto overflow-hidden flex items-center justify-center">
                   <img 
                     src="/navbar.png" 
-                    alt="Sadra Saleh Logo" 
-                    className="h-12 w-auto object-contain brightness-110"
+                    alt="Exporter Logo" 
+                    className="h-12 sm:h-14 w-auto object-contain brightness-110"
                   />
                 </div>
               </div>
             </div>
             
-            <p className="text-gray-400 text-sm leading-relaxed max-w-sm">
-              Cultivating and exporting authentic <strong className="text-[#D4AF37]">Super Negin Saffron, Damask Rosebuds, and Barberry</strong> directly from our 100-year Isfahan farms to global B2B importers, cosmetic labs, and wholesale markets.
+            <p className="text-zinc-400 text-sm leading-relaxed max-w-sm">
+              Cultivating and exporting authentic <strong className="text-[#F4D068]">Super Negin Saffron and Damask Rosebuds</strong> directly from Khorasan organic farms to global B2B importers, cosmetic labs, and wholesale markets.
             </p>
 
             <div className="pt-2">
-              <span className="text-xs font-bold uppercase tracking-widest text-[#D4AF37] flex items-center gap-2 mb-1">
-                <Sparkles className="w-3.5 h-3.5" /> 100-Year Heritage
+              <span className="text-xs font-bold uppercase tracking-widest text-[#F4D068] flex items-center gap-2 mb-1">
+                <Sparkles className="w-3.5 h-3.5 text-[#FF4D58]" /> Direct Farm Supplier
               </span>
-              <p className="text-gray-300 text-sm font-medium">
-                Isfahan Farming Hub, Iran • Direct GCC & Worldwide Exports
+              <p className="text-zinc-300 text-sm font-medium">
+                Mashhad Export Hub, Iran • Direct GCC & Worldwide Transit
               </p>
             </div>
           </div>
 
           {/* Quick Links */}
           <div className="space-y-4">
-            <h4 className="text-xs font-bold uppercase tracking-widest text-[#D4AF37]">
+            <h4 className="text-xs font-bold uppercase tracking-widest text-[#F4D068]">
               Navigation
             </h4>
-            <ul className="space-y-3 text-sm text-gray-400">
+            <ul className="space-y-3 text-sm text-zinc-400">
               <li>
-                <Link href="/" className="hover:text-[#D4AF37] transition-colors">Home</Link>
+                <Link href="/" className="hover:text-[#F4D068] transition-colors">Home</Link>
               </li>
               <li>
-                <Link href="/products" className="hover:text-[#D4AF37] transition-colors">Export Products</Link>
+                <Link href="#products" className="hover:text-[#F4D068] transition-colors">Export Products</Link>
               </li>
               <li>
-                <Link href="/about" className="hover:text-[#D4AF37] transition-colors">100-Year Legacy</Link>
+                <Link href="#about" className="hover:text-[#F4D068] transition-colors">About Us</Link>
               </li>
               <li>
-                <Link href="#rfq-section" className="hover:text-[#D4AF37] transition-colors flex items-center gap-1">
+                <Link href="#rfq" className="hover:text-[#F4D068] transition-colors flex items-center gap-1">
                   <span>Request RFQ</span>
-                  <ArrowUpRight className="w-3.5 h-3.5 text-[#D4AF37]" />
+                  <ArrowUpRight className="w-3.5 h-3.5 text-[#FF4D58]" />
                 </Link>
               </li>
             </ul>
@@ -74,42 +74,42 @@ export default function Footer() {
 
           {/* Core Agricultural Products */}
           <div className="space-y-4">
-            <h4 className="text-xs font-bold uppercase tracking-widest text-[#D4AF37]">
+            <h4 className="text-xs font-bold uppercase tracking-widest text-[#F4D068]">
               Export Commodities
             </h4>
-            <ul className="space-y-3 text-sm text-gray-400">
+            <ul className="space-y-3 text-sm text-zinc-400">
               <li>
-                <Link href="/products#saffron" className="hover:text-[#D4AF37] transition-colors">Super Negin Saffron (Grade A+)</Link>
+                <Link href="#products" className="hover:text-[#F4D068] transition-colors">Super Negin Saffron (Grade A+)</Link>
               </li>
               <li>
-                <Link href="/products#rosebuds" className="hover:text-[#D4AF37] transition-colors">Organic Damask Rosebuds</Link>
+                <Link href="#products" className="hover:text-[#F4D068] transition-colors">Organic Damask Rosebuds</Link>
               </li>
               <li>
-                <Link href="/products#barberry" className="hover:text-[#D4AF37] transition-colors">Puffy Crimson Barberry</Link>
+                <Link href="#products" className="hover:text-[#F4D068] transition-colors">Bulk Metal & Tin Packaging</Link>
               </li>
               <li>
-                <Link href="/products#custom-packaging" className="hover:text-[#D4AF37] transition-colors">Private Labeling & Tins</Link>
+                <Link href="#rfq" className="hover:text-[#F4D068] transition-colors">Certificate of Analysis (COA)</Link>
               </li>
             </ul>
           </div>
 
           {/* Direct Contact & Export Desk */}
           <div className="space-y-4">
-            <h4 className="text-xs font-bold uppercase tracking-widest text-[#D4AF37]">
+            <h4 className="text-xs font-bold uppercase tracking-widest text-[#F4D068]">
               Commercial Desk
             </h4>
-            <ul className="space-y-3 text-sm text-gray-400">
+            <ul className="space-y-3 text-sm text-zinc-400">
               <li className="flex items-center gap-2.5">
-                <Mail className="w-4 h-4 text-[#D4AF37] shrink-0" />
-                <span className="text-gray-300">export@sadrasaleh.com</span>
+                <Mail className="w-4 h-4 text-[#FF4D58] shrink-0" />
+                <span className="text-zinc-300">export@example.com</span>
               </li>
               <li className="flex items-center gap-2.5">
-                <Phone className="w-4 h-4 text-[#D4AF37] shrink-0" />
-                <span className="text-gray-300">+98 (Isfahan Commercial Desk)</span>
+                <Phone className="w-4 h-4 text-[#FF4D58] shrink-0" />
+                <span className="text-zinc-300">+98 (Export Department)</span>
               </li>
               <li className="flex items-start gap-2.5">
-                <Globe2 className="w-4 h-4 text-[#D4AF37] shrink-0 mt-0.5" />
-                <span className="text-gray-300">Jeddah, Dubai & Worldwide Transit</span>
+                <Globe2 className="w-4 h-4 text-[#FF4D58] shrink-0 mt-0.5" />
+                <span className="text-zinc-300">GCC, Europe & Worldwide Transit</span>
               </li>
             </ul>
           </div>
@@ -117,12 +117,11 @@ export default function Footer() {
         </div>
 
         {/* Bottom Bar / Copyright */}
-        <div className="pt-8 border-t border-white/10 flex flex-col sm:flex-row items-center justify-between gap-4 text-xs text-gray-500">
-          <p>© {new Date().getFullYear()} Sadra Saleh. All rights reserved.</p>
+        <div className="pt-8 border-t border-[#4A1217] flex flex-col sm:flex-row items-center justify-between gap-4 text-xs text-zinc-500">
+          <p>© {new Date().getFullYear()} All rights reserved.</p>
           <div className="flex items-center gap-6">
-            <Link href="/privacy" className="hover:text-[#D4AF37] transition-colors">Privacy Terms</Link>
-            <Link href="/terms" className="hover:text-[#D4AF37] transition-colors">Incoterms & Export Policy</Link>
-            <Link href="/sitemap" className="hover:text-[#D4AF37] transition-colors">Sitemap</Link>
+            <Link href="#privacy" className="hover:text-[#F4D068] transition-colors">Privacy Terms</Link>
+            <Link href="#terms" className="hover:text-[#F4D068] transition-colors">Incoterms & Export Policy</Link>
           </div>
         </div>
 
