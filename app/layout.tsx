@@ -12,8 +12,8 @@ const montserrat = Montserrat({
 });
 
 export const metadata: Metadata = {
-title: "Sadra Saleh | Premium Isfahan Saffron & Botanical B2B Export",
-description: "Direct producers of Grade A+ Super Negin Saffron, Damask Rosebuds, and Barberry from Isfahan. Supplying bulk wholesale markets across Saudi Arabia, GCC, and worldwide.",
+title: "Eslami Saffron | Direct Exporter of Premium Iranian Super Negin Saffron",
+description: "Official B2B supplier of ISO-certified Super Negin Saffron & Damask Rose. Direct producer from Mashhad offering lab-tested quality, bulk wholesale pricing, and express global air freight. Request a quick RFQ today.",
   // 👑 Site Icons Configuration Engine
   icons: {
     // icon: "/favicon.ico", // public/favicon.ico wala path
